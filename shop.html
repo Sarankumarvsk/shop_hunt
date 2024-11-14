@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHunt</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.min.css">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+ 
+    <nav class="container-fluid" style="background-color: rgb(129, 201, 237)" >
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <button class="btn btn-link"><span class="glyphicon glyphicon-menu-hamburger" style="height: 25px;"></span></button>
+                <span style="font-size: 25px;color: black;"><b>SHOPHUNT</b></span>
+                
+                <span class="form-group" style="display: inline;">
+                    
+                    <button type="submit" style="margin-left: 250px;height: 35px;border-radius: 15px;"><input type="text" placeholder="Search here" style="width: 450px;height: 30px;border-radius: 15px;">
+                        <span class="glyphicon glyphicon-search"></span></button>
+
+                </span>
+               <span style="margin-left: 225px;">
+                <button onclick="home()" type="button" class="btn" style="background-color: rgb(129, 201, 237);"><span class="glyphicon glyphicon-home"> </span><span> </span>HOME</button>
+                <button onclick="about()" type="button" class="btn" style="background-color:rgb(129, 201, 237);"><span class="glyphicon glyphicon-info-sign"> </span> <span></span>ABOUT</button>
+                <button onclick="contact()" type="button"class="btn" style="background-color:rgb(129, 201, 237);"><span class="glyphicon glyphicon-earphone"> </span> <span></span>CONTACT</button>
+                <button onclick="user()" type="button"class="btn" style="background-color: rgb(129, 201, 237);"><span class="glyphicon glyphicon-user"> </span></button>
+            </span>
+            <script>
+                function about(){
+                    window.location.href='./about.html'
+                }
+
+                function contact(){
+                    window.location.href='./contact.html'
+                }
+
+                function user(){
+                    window.location.href='./login.html'
+                }
+
+            </script>
+                
+              </div></div>
+            
+    </nav>
+    <div class="container-fluid" style="background-color: blue;height: 20px;">
+
+    <marquee direction="left" loop="" ><div><p style="color: white;">Only Cash on Delivery is available now!!!</p></div></marquee>
+</div>
+<br>
+<div class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="#laptop"><img src="./rog.jpg" alt="rog" style="width:100%; height: 400px;"></a>
+        </div>
+  
+        <div class="item">
+            <a href="#card"><img src="./graphics.jpeg" alt="gc" style="width:100%;height: 400px;"></a>
+        </div>
+      
+        <div class="item">
+          <a href="#cabinet"><img src="./cabinet.jpg" alt="cab" style="width:100%;height: 400px;"></a>
+        </div>
+        <div class="item">
+            <a href="#headphones"><img src="./air.jpg" alt="headphones" style="width:100%;height: 400px;"></a>
+          </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+<center><h1 id="headphones"><b>Headphones & Earphones</h1></b></center>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="boat()"><img src="./boat131 pro.jpg" alt="boat131" width="250px" height="200px"><br>
+             <p>Name: Boat 131 pro</p>
+             <p>Price: Rs.1299</p></button>
+             <script>
+                function boat(){
+                    window.location.href='./boat131.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="boult1()"><img src="./boult z40.jpg" alt="boult z40 ultra" width="250px" height="200px"><br>
+             <p>Name: Boult z40 pro</p>
+             <p>Price: Rs.1999</p></button>
+             <script>
+                function boult1(){
+                    window.location.href='./boultz40.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="boult2()"><img src="./x45.jpg" alt="boult x45" width="250px" height="200px"><br>
+             <p>Name: Boult X45</p>
+             <p>Price: Rs.1399</p></button>
+             <script>
+                function boult2(){
+                    window.location.href='./boultz40.html'
+                }
+             </script>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="boult3()"><img src="./boult.jpg" alt="boult" width="250px" height="200px"><br>
+             <p>Name: Boult Audio Curve</p>
+             <p>Price: Rs.899</p></button>
+             <script>
+                function boult3(){
+                    window.location.href='./boult.html'
+                }
+             </script>
+        </div>
+    </div>  
+</div>
+
+<center><h1 id="card"><b>Graphics Card</b></h1></center>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="rtx1()"><img src="./rtx3050.jpg" alt="rtx3050" width="250px" height="200px"><br>
+             <p>Name: RTX3050</p>
+             <p>Price: Rs.21,544</p></button>
+             <script>
+                function rtx1(){
+                    window.location.href='./rtx3050.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="rtx2()"><img src="./rtx3090.jpg" alt="rtx3090" width="250px" height="200px"><br>
+             <p>Name: RTX3090</p>
+             <p>Price: Rs.96,890</p></button>
+             <script>
+                function rtx2(){
+                    window.location.href='./rtx3090.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="rtx3()"><img src="./rtx4060.jpg" alt="rtx4060" width="250px" height="200px"><br>
+             <p>Name: RTX 4060</p>
+             <p>Price: Rs.36,890</p></button>
+             <script>
+                function rtx3(){
+                    window.location.href='./rtx4060.html'
+                }
+             </script>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="rtx4()"><img src="./rtx4090.jpg" alt="rtx4090" width="250px" height="200px"><br>
+             <p>Name: RTX 4090</p>
+             <p>Price: Rs.2,07,700</p></button>
+             <script>
+                function rtx4(){
+                    window.location.href='./rtx4090.html'
+                }
+             </script>
+        </div>
+    </div>  
+</div>
+
+<center><h1 id="laptop"><b>Gaming Laptops</b></h1></center>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="lap1()"><img src="./g17.jpg" alt="G17" width="250px" height="200px"><br>
+             <p>Name: ASUS ROG Strix G17</p>
+             <p>Price: Rs.96,000</p></button>
+             <script>
+                function lap1(){
+                    window.location.href='./strix17.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="lap2()"><img src="./f15.jpg" alt="tuf f15" width="250px" height="200px"><br>
+             <p>Name: ASUS TUF F15</p>
+             <p>Price: Rs.1,02,000</p></button>
+             <script>
+                function lap2(){
+                    window.location.href='./tuff15.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="lap3()"><img src="./duo16.jpg" alt="duo 16" width="250px" height="200px"><br>
+             <p>Name: Asus Zephyrus Duo 16</p>
+             <p>Price: Rs.2,68,990</p></button>
+             <script>
+                function lap3(){
+                    window.location.href='./duo16.html'
+                }
+             </script>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="lap4()"><img src="./g16.jpg" alt="G16" width="250px" height="200px"><br>
+             <p>Name: Asus G16</p>
+             <p>Price: Rs.2,19,990</p></button>
+             <script>
+                function lap4(){
+                    window.location.href='./g16.html'
+                }
+             </script>
+        </div>
+    </div>  
+</div>
+
+
+<center><h1 id="cabinet"><b>Cabinet</h1></b></center>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="cab1()"><img src="./antsports.jpg" alt="AntSports" width="250px" height="200px"><br>
+             <p>Name: AntSports Cabinet</p>
+             <p>Price: Rs.2,138</p></button>
+             <script>
+                function cab1(){
+                    window.location.href='./antsports.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="cab2()"><img src="./msi.jpg" alt="MSI" width="250px" height="200px"><br>
+             <p>Name: MSI Cabinet</p>
+             <p>Price: Rs.5,018</p></button>
+             <script>
+                function cab2(){
+                    window.location.href='./msi.html'
+                }
+             </script>
+        </div>
+
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="cab3()"><img src="./zeb.jpg" alt="zeb" width="250px" height="200px"><br>
+             <p>Name: Zebronics Phantom</p>
+             <p>Price: Rs.15,230</p></button>
+             <script>
+                function cab3(){
+                    window.location.href='./zeb.html'
+                }
+             </script>
+        </div>
+        <div class="col-lg-3">
+            <button class="btn btn-link" onclick="cab4()"><img src="./zeb agro.jpg" alt="zeb" width="250px" height="200px"><br>
+             <p>Name: Zebronics Agros</p>
+             <p>Price: Rs.7,500</p></button>
+             <script>
+                function cab4(){
+                    window.location.href='./zeb1.html'
+                }
+             </script>
+        </div>
+    </div>  
+</div>
+<div class="container-fluid" style="background-color: rgb(129, 201, 237);">
+<footer>
+    <center>  <h3><i class="fa fa-copyright"></i>Copyrights 2024 Reserved</h3></center>
+    </footer>
+</div>
+</body>
+</html>
